@@ -1,0 +1,42 @@
+/* FADE ANIMATION */
+
+.hero__content,
+.hero__image,
+.about__card,
+.project-card{
+
+    animation:fadeUp 1s ease;
+
+}
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+        transform:translateY(40px);
+
+    }
+
+    to{
+
+        opacity:1;
+        transform:translateY(0);
+
+    }
+
+}
+
+/* HOVER EFFECTS */
+
+.project-card:hover{
+
+    box-shadow:0 20px 40px rgba(0,0,0,0.2);
+
+}
+
+.about__card:hover{
+
+    background:#eff6ff;
+
+}
